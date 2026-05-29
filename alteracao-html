@@ -6,12 +6,12 @@
 <title>Atividade HTML</title>
 <style>
 body { text-align: center; font-family: Arial, sans-serif; }
-h1 { color: blue; }
+h1 { color: rgb(255, 174, 0); }
+p { color: rgb(255, 0, 0); }
 </style>
 </head>
 <body>
-<h1>Meu Primeiro Site ! </h1>
-<p>Este site foi feito para testar HTML. </p>
-<p>Estou muito animado para aprender! </p>
+<h1>Bem-vindo ao meu site </h1>
+<p>Este é um exemplo simples </p>
 </body>
 </html>
