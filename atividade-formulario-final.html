@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang=pt-br'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+<h1>Pata Amiga</h1>
+<p>Abrigo comunitário que conecta famílias a animais resgatados da região.</p>
+<h2>Animais aguardando um lar</h2>
+<p>Todos os pets abaixo passaram por avaliação veterinária e estão prontos para adoção. Preencha o cadastro para agendar uma visita de apresentação.</p>
+<ul>
+<li>Thor — cachorro adulto, dócil e brincalhão</li>
+<li>Luna — gata jovem, independente e carinhosa</li>
+<li>Pipoca — coelho, tranquilo e de fácil adaptação</li>
+<li>Mel — cachorra idosa, ideal para lares calmos</li>
+</ul>
+<h2>Cadastro do adotante</h2>
+<p>Informe seus dados e preferências com sinceridade. Nossa equipe analisa cada cadastro para garantir o bem-estar do animal e da família.</p>
+<h3>Quem vai adotar</h3>
+<form action="processa.php" method="post">
+<label>Nome:</label>
+<input type="text" name="nome">
+<br><br>
+<label>Email:</label>
+<input type="email" name="email">
+<br><br>
+<label>Crie uma senha para acompanhar o processo</label>
+<input type="password" name="senha">
+<br><br>
+<label>Telefone (somente números):</label>
+<input type="number" name="telefone">
+<br><br>
+<label>Data de nascimento:</label>
+<input type="date" name="data">
+<br><br>
+<label>Tipo de moradia:</label>
+<input type="radio" name="moradia" value="apartamento"> Apartamento
+<input type="radio" name="moradia" value="casa com quintal"> Casa com quintal
+<input type="radio" name="moradia" value="sitio ou chacara"> Sítio ou Chácara
+<br><br>
+<h3>Preferências de adoção</h3>
+<label>Porte do animal desejado:</label>
+<select name="Pequeno —— até 10kg">
+<option value="Pequeno —— até 10kg"></option>
+<opition value="Médio —— de 10 à 25kg"></opition>
+<option value="Grande —— de 25 à 40kg"></option>
+<option value="Gigante  —— acima de 40kg"></option>
+</select>
+<br><br>
+<label>Unidade do abrigo para visita:</label>
+<select name="Unidade Zona Norte">
+<option value="Unidade Zona Norte"></option>
+<option value="Unidade Zona Sul"></option>
+<option value="Unidade Zona Leste"></option>
+<option value="Unidade Zona Oeste"></option>
+<option value="Unidade Zona Centro"></option>
+</select>
+<br><br>
+<label>Cuidados que você pode oferecer:</label>
+<input type="checkbox" name="cuidado" value="passeios diários"> Passeios diários
+<input type="checkbox" name="cuidado" value="vacinação em dia"> Vacinação em dia
+<input type="checkbox" name="cuidado" value="castração"> Castração
+<input type="checkbox" name="cuidado" value="acompanhamento veterinário"> Acompanhamento veterinário
+<br><br>
+<label>Conte sobre sua rotina e experiência com animais:</label><br>
+<textarea name="mensagem" rows="5" cols="40"></textarea>
+<br><br>
+<label>Envie uma foto do local onde o animal ficará:</label>
+<input type="file"><br>
+<button type="button">Enviar formulário</button>
+<button type="reset">Limpar formulário</button>
+<br><br>
+<h1>Precisa de orientação?</h1>
+<p>Nossa equipe de voluntários responde dúvidas pelo email <a href="ajuda@pataamiga.org.br" target="_blank">ajuda@pataamiga.org.br</a> ou pelo telefone (21) 2555-0198.</p>
+<p>2025 Pata Amiga. Todos os direitos reservados.</p>
+<p>Seus dados são usados somente no processo de adoção responsável.</p>
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+</html>
