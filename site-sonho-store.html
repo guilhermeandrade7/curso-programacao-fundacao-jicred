@@ -108,33 +108,97 @@
         .perfil-mobile {
           display: flex;
         }
+      }
       
-        .busca {
+         .busca{
+        position:relative ;
+        width: 600px;
+        margin-top: 10px;        
+      }
 
-            position:relative;
-            width: 600px;
-            margin-top: 20px;
+     .busca-lupa {
+        position: absolute;
+        left: 435px;
+        top: 50%;
+        transform:translateY(-50%) ;
+      }
+
+    .busca-campo  {
+        width: 450px;
+        height: 15px;
+        border-radius: 17px;
+        padding: 10px;
+        border: 2px solid gray;
+
+      }
+
+        .filtro-botao {
+          
+          border: 1px solid #e5e7eb;
+          border-radius: 15px;
+          background-color: #f3f4f6;
+          padding: 8px 16px;
+          color: #374151;
+          font-size: 14px;
+          cursor: pointer;
+
         }
 
-        .busca-lupa {
+        .filtro-ativo{
 
-            position: absolute;
-            left: 225px;
-            top: 50%;
-            transform: translateY(-50%);
+          background-color: #16a34a;
+          color: #ffffff;
+          transform: scale(1.1);
 
         }
 
-        .busca-campo {
+        .titulo-secao {
 
-            width: 233px;
-            height: 15px;
-            border-radius: 20px;
-            padding: 10px;
-            
+          font-family: Arial, Helvetica, sans-serif;
+          color: #1f2937;
         }
 
+        .subtitulo-secao {
+
+          font-family: Arial, Helvetica, sans-serif;
+          color: #6b7280;
+        }
+
+        .lista {
+
+
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          gap: 24px;
+          font-size: 22px;
+          padding: 30px;
+          width: 180px;
+          margin: 5px;
+          height: 100px;
+          border-radius: 12px;
         
+}
+
+
+.card {
+
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 5px;
+  width: 250px;
+
+}
+
+
+.card-foto {
+
+  width: 250px;
+  height: 200px;
+  
+
+}
 
     </style>
   </head>
